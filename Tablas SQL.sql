@@ -23,7 +23,7 @@ insert into TestXY
 values ('Informatica','Julia','Santos',13,'Base de datos')
 
 insert into TestXY 
-values ('Informatica','Gregory','Toledo', 12, 'Gesti髇 de datos')
+values ('Informatica','Gregory','Toledo', 12, 'Gesti贸n de datos')
 
 insert into TestXY 
 values ('Informatica','John','Warren',1,'Analisis de base de datos')
@@ -50,16 +50,16 @@ Materia nvarchar (100),
 select *from TestXU
 
 insert into TestXU 
-values ('Ebanisteria','Jose', 'Rodriguez',7,'Dise駉 de planos')
+values ('Ebanisteria','Jose', 'Rodriguez',7,'Dise帽o de planos')
 
 insert into TestXU 
-values ('Moda','Mara', 'Pe馻',42,'Dise駉 de patrones')
+values ('Moda','Mara', 'Pe帽a',42,'Dise帽o de patrones')
 
 insert into TestXU 
-values ('Mercadeo','Henderson', 'Martines',9,'Administraci髇 de mercado')
+values ('Mercadeo','Henderson', 'Martines',9,'Administraci贸n de mercado')
 
 insert into TestXU 
-values ('Administraci髇','Roger', 'Gomez',6,'Administraci髇 de empresa')
+values ('Administraci贸n','Roger', 'Gomez',6,'Administraci贸n de empresa')
 
 
 --3er Tabla TestKL
@@ -80,16 +80,16 @@ Materia nvarchar (100),
 Select *From TestKL
 
 insert into TestKL
-values ('Emfermeria','Jeferson', 'Martinez',40,'Anatom韆')
+values ('Emfermeria','Jeferson', 'Martinez',40,'Anatom铆a')
 
 insert into TestKL
-values ('Veterinaria','Mara', 'Concepi髇',20,'Quimica')
+values ('Veterinaria','Mara', 'Concepi贸n',20,'Quimica')
 
 insert into TestKL
-values ('Mercadeo','Oliver', 'Rogers',20,'Educaci髇 laboral')
+values ('Mercadeo','Oliver', 'Rogers',20,'Educaci贸n laboral')
 
 insert into TestKL
-values ('Informatica','Chris','Santos',14,'Aplicaci髇e informaticas')
+values ('Informatica','Chris','Santos',14,'Aplicaci贸ne informaticas')
 
 --4ta Tabla TestCJS
 
@@ -109,21 +109,21 @@ Materia nvarchar (100),
 Select *From TestCJS
 
 insert into TestCJS
-values ('Informatica','Claudeen', 'Jimenez',14,'Base de datos')
+values ('Informatica','Clau', 'Jimenez',14,'Base de datos')
 
 insert into TestCJS
 values ('Mercadeo','Rick','Martin',30,'Historia')
 
 insert into TestCJS
-values ('Fotograf韆','Alejandro', 'Valdez',2,'Educaci髇 Fis韈a')
+values ('Fotograf铆a','Alejandro', 'Valdez',2,'Educaci贸n Fis铆ca')
 
 insert into TestCJS
-values ('Informatica','Tom','Holland',50,'Biolog韆')
+values ('Informatica','Tom','Holland',50,'Biolog铆a')
 
 Go
 
 
---Proceso de selecci髇 de tablas
+--Proceso de selecci贸n de tablas
 
 select *from  TestXY
 select *from  TestXU
